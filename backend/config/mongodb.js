@@ -1,11 +1,18 @@
 import mongoose from "mongoose";
 
 const connectDB = async () => {
-
-    mongoose.connection.on('connected', () => console.log("Database Connected"))
-    await mongoose.connect(`${process.env.MONGODB_URI}/prescripto`)
-
-}
+  try {
+    await mongoose.connect(process.env.MONGODB_URI, {
+      dbName: "prescripto", // database का नाम
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    mongoose.connection.on('connected', () => console.log("Database Connected"));
+  } catch (err) {
+    console.error("MongoDB connection failed:", err);
+    process.exit(1);
+  }
+};
 
 export default connectDB;
 
