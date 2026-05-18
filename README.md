@@ -27,6 +27,28 @@ It also includes a **telemedicine video call feature for doctor-to-doctor commun
 admin/
 frontend/
 backend/
+## Live Demo
+### Frontend
+https://prescripto-doctor-appointment-five.vercel.app/
+### Admin Panel
+https://prescripto-doctor-appointment-qnt8.vercel.app/
+### Backend API
+https://prescripto-doctor-appointment-1-qc4a.onrender.com
+## Screenshots
+### Home Page
+
+![Uploading Screenshot (116).png…]()
+
+
+
+### All Doctors Page
+
+<img width="1920" height="1080" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/ea23788d-1411-4bf7-92fe-720c80112eb2" />
+
+
+
+### Appointment Booking Page
+<img width="1920" height="1080" alt="Screenshot (118)" src="https://github.com/user-attachments/assets/2e557fb4-e360-4d07-a9f7-c3e937fa1ede" />
 
 ## How to Run the Project
 
