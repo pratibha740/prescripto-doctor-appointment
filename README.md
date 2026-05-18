@@ -37,7 +37,8 @@ https://prescripto-doctor-appointment-1-qc4a.onrender.com
 ## Screenshots
 ### Home Page
 
-![Uploading Screenshot (116).png…]()
+<img width="1920" height="1080" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/5935f9f5-d938-4a3b-8a09-cb93c767015b" />
+
 
 
 
